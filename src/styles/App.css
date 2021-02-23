@@ -10,7 +10,7 @@ thead {
     margin-right: 5px;
   }
   
-  #dropdownMenuButton,
+  #dropdown-basic-button,
   .add-customer {
     color: black;
     background-color: #70d9ff;
@@ -18,13 +18,13 @@ thead {
     text-decoration: none;
   }
   
-  #dropdownMenuButton:hover,
+  #dropdown-basic-button:hover,
   .add-customer:hover {
     background-color: #00aeef;
     color: white;
   }
   
-  #dropdownMenuButton:focus,
+  #dropdown-basic-button:focus,
   .add-customer:focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
