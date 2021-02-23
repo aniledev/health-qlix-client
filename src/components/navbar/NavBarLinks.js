@@ -12,20 +12,23 @@ import {
   faFlagUsa,
   faMapPin,
 } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 
 export default class NavBarLinks extends Component {
   render() {
     return (
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="/">
+          <NavLink class="nav-link" to="/">
             Home
-          </a>
+          </NavLink>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="/form.html">
+          <NavLink class="nav-link" to="/add">
+            {" "}
             <FontAwesomeIcon icon={faPlusSquare} className="plus" /> Create New
-          </a>
+          </NavLink>
         </li>
       </ul>
     );
