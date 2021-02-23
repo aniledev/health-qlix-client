@@ -184,7 +184,7 @@ export default class FormInputs extends Component {
         </div>
 
         <div class="d-flex justify-content-end">
-          <a href="root.html">
+          <a href="/">
             <button type="button" class="btn btn-danger cancel mt-3 mx-2">
               <FontAwesomeIcon icon={faTimesCircle} className="cancel" />
               Cancel
