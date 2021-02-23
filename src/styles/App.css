@@ -41,7 +41,8 @@ thead {
   .pin,
   .list,
   .fa-sticky-note,
-  .fa-clipboard {
+  .fa-clipboard, 
+  .cancel {
     margin-right: 5px;
   }
   

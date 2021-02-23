@@ -1,4 +1,20 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPlusSquare,
+  faSearch,
+  faSortAlphaDown,
+  faListOl,
+  faUser,
+  faHome,
+  faBuilding,
+  faCity,
+  faFlagUsa,
+  faMapPin,
+  faClipboard,
+  faStickyNote,
+  faTimesCircle,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default class FormInputs extends Component {
   render() {
@@ -6,7 +22,8 @@ export default class FormInputs extends Component {
       <form class="mt-5">
         <div class="form-group">
           <label for="input-name">
-            <i class="fas fa-user"></i>Name
+            <FontAwesomeIcon icon={faUser} className="user" />
+            Name
           </label>
           <input
             type="text"
@@ -20,7 +37,8 @@ export default class FormInputs extends Component {
         </div>
         <div class="form-group">
           <label for="input-address-1">
-            <i class="fas fa-home"></i>AAddress Line 1
+            <FontAwesomeIcon icon={faHome} className="home" />
+            Address Line 1
           </label>
           <input
             type="text"
@@ -34,7 +52,8 @@ export default class FormInputs extends Component {
         </div>
         <div class="form-group">
           <label for="input-address-2">
-            <i class="fas fa-building"></i>Address Line 2
+            <FontAwesomeIcon icon={faBuilding} className="building" />
+            Address Line 2
           </label>
           <input
             type="text"
@@ -47,7 +66,8 @@ export default class FormInputs extends Component {
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="input-city">
-              <i class="fas fa-city"></i>City
+              <FontAwesomeIcon icon={faCity} className="city" />
+              City
             </label>
             <input
               type="text"
@@ -60,7 +80,8 @@ export default class FormInputs extends Component {
           </div>
           <div class="form-group col-md-4">
             <label for="input-state">
-              <i class="fas fa-flag-usa"></i>State
+              <FontAwesomeIcon icon={faFlagUsa} className="flag" />
+              State
             </label>
             <select id="input-state" class="form-control" required>
               <option selected>Choose state</option>
@@ -121,7 +142,8 @@ export default class FormInputs extends Component {
           </div>
           <div class="form-group col-md-2">
             <label for="input-zip">
-              <i class="fas fa-map-pin"></i>Zip
+              <FontAwesomeIcon icon={faMapPin} className="pin" />
+              Zip
             </label>
             <input
               type="text"
@@ -136,7 +158,8 @@ export default class FormInputs extends Component {
 
         <div class="form-group">
           <label for="input-description">
-            <i class="fas fa-clipboard"></i>Description
+            <FontAwesomeIcon icon={faClipboard} className="clipboard" />
+            Description
           </label>
           <textarea
             type="text"
@@ -148,7 +171,8 @@ export default class FormInputs extends Component {
 
         <div class="form-group">
           <label for="input-notes">
-            <i class="fas fa-sticky-note"></i>Notes
+            <FontAwesomeIcon icon={faStickyNote} className="note" />
+            Notes
           </label>
           <textarea
             type="text"
@@ -161,12 +185,12 @@ export default class FormInputs extends Component {
         <div class="d-flex justify-content-end">
           <a href="root.html">
             <button type="button" class="btn btn-danger cancel mt-3 mx-2">
-              <i class="fa fa-times-circle"></i>
+              <FontAwesomeIcon icon={faTimesCircle} className="cancel" />
               Cancel
             </button>
           </a>
           <button type="submit" class="btn btn-primary add-customer mt-3">
-            <i class="fa fa-plus-square"></i>
+            <FontAwesomeIcon icon={faPlusSquare} className="plus" />
             Add Customer
           </button>
         </div>
