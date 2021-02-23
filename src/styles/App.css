@@ -1,3 +1,12 @@
+#dropdown-basic-button,
+.add-customer,
+.add {
+  color: black;
+  background-color: #70d9ff;
+  border: none;
+  text-decoration: none;
+}
+
 .navbar-dark {
   background-color: #0f74bc;
 }
@@ -7,58 +16,49 @@ thead {
 }
 
 .logo {
-    margin-right: 5px;
-  }
-  
-  #dropdown-basic-button,
-  .add-customer {
-    color: black;
-    background-color: #70d9ff;
-    border: none;
-    text-decoration: none;
-  }
-  
-  #dropdown-basic-button:hover,
-  .add-customer:hover {
-    background-color: #00aeef;
-    color: white;
-  }
-  
-  #dropdown-basic-button:focus,
-  .add-customer:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
-    background-color: #00aeef;
-    color: white;
-  }
-  
-  .plus,
-  .user,
-  .home,
-  .city,
-  .building,
-  .fa-flag-usa,
-  .pin,
-  .list,
-  .fa-sticky-note,
-  .fa-clipboard, 
-  .cancel {
-    margin-right: 5px;
-  }
-  
-  .fa-sort-alpha-down {
-    margin-left: 5px;
-  }
-  
-  label {
-    font-weight: 700;
-  }
-  
-  h5 {
-    line-height: 31px;
-  }
-  
-  .info-label {
-    width: 25%;
-  }
-  
+  margin-right: 5px;
+}
+
+#dropdown-basic-button:hover,
+.add-customer:hover {
+  background-color: #00aeef;
+  color: white;
+}
+
+#dropdown-basic-button:focus,
+.add-customer:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
+  background-color: #00aeef;
+  color: white;
+}
+
+.plus,
+.user,
+.home,
+.city,
+.building,
+.fa-flag-usa,
+.pin,
+.list,
+.fa-sticky-note,
+.fa-clipboard,
+.cancel {
+  margin-right: 5px;
+}
+
+.fa-sort-alpha-down {
+  margin-left: 5px;
+}
+
+label {
+  font-weight: 700;
+}
+
+h5 {
+  line-height: 31px;
+}
+
+.info-label {
+  width: 25%;
+}

@@ -15,6 +15,7 @@ import {
   faStickyNote,
   faTimesCircle,
 } from "@fortawesome/free-solid-svg-icons";
+import "../../styles/FormInputs.css"
 
 export default class FormInputs extends Component {
   render() {
@@ -189,7 +190,7 @@ export default class FormInputs extends Component {
               Cancel
             </button>
           </a>
-          <button type="submit" class="btn btn-primary add-customer mt-3">
+          <button type="submit" class="add btn add add-customer mt-3">
             <FontAwesomeIcon icon={faPlusSquare} className="plus" />
             Add Customer
           </button>

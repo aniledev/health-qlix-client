@@ -14,6 +14,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { DropdownButton, Dropdown } from "react-bootstrap";
 import RootTableRow from "./RootTableRow";
+import { Link } from "react-router-dom";
 
 export default class RootTableData extends Component {
   render() {
