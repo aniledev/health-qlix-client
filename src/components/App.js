@@ -6,7 +6,7 @@ import FormView from "../pages/FormView";
 import NotFoundView from "../pages/NotFoundView";
 import "../styles/App.css";
 
-export default class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
