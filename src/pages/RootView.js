@@ -12,11 +12,15 @@ import {
   faFlagUsa,
   faMapPin,
 } from "@fortawesome/free-solid-svg-icons";
+import RootNavBar from "../components/navbar/RootNavBar";
+import RootCustomerTable from "../components/table/RootCustomerTable";
 
 export default class RootView extends Component {
   render() {
     return (
       <div className="RootView">
+        <RootNavBar></RootNavBar>
+
         <nav class="mb-4 navbar navbar-expand-lg navbar-dark sticky-top">
           <a class="navbar-brand" href="/">
             <img
@@ -70,6 +74,7 @@ export default class RootView extends Component {
           </div>
         </nav>
 
+        <RootCustomerTable>Goes here</RootCustomerTable>
         <main class="container mt-4 mb-5">
           <div class="dropdown pt-43 mb-3 d-flex justify-content-end">
             <button
