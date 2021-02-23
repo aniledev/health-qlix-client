@@ -5,6 +5,7 @@ import DetailView from "../pages/DetailView";
 import FormView from "../pages/FormView";
 import NotFoundView from "../pages/NotFoundView";
 import "../styles/App.css";
+import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 export default class App extends Component {
   render() {
