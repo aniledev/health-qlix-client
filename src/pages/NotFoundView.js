@@ -16,10 +16,10 @@ export default class NotFoundView extends Component {
                 <h1>Oops!</h1>
                 <h2>404 Not Found</h2>
                 <div class="error-details">
-                  Sorry, an error has occured, Requested page not found!
+                  Sorry, an error has occured. Requested page not found
                 </div>
                 <div class="error-actions">
-                  <Link href="/" class="btn reroute btn-lg home">
+                  <Link to="/" class="btn reroute btn-lg home">
                     Take Me Home{" "}
                   </Link>
                 </div>
