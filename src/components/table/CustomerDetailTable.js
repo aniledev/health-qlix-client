@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import DetailTableHeading from "./DetailTableHeading";
 
 export default class CustomerDetailTable extends Component {
   render() {
     return (
       <main class="container mt-5 mb-5">
         <section>
-          <h3>Jackie Bruen</h3>
+          <DetailTableHeading />
           <table class="table table-hover mt-4">
             <tbody>
               <tr>
