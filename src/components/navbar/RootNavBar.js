@@ -13,6 +13,7 @@ import {
   faMapPin,
 } from "@fortawesome/free-solid-svg-icons";
 import NavBarSearch from "../navbar/NavBarSearch";
+import NavBarLinks from "../navbar/NavBarLinks";
 
 export default class RootNavBar extends Component {
   render() {
@@ -41,22 +42,9 @@ export default class RootNavBar extends Component {
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/form.html">
-                <FontAwesomeIcon icon={faPlusSquare} className="plus" /> Create
-                New
-              </a>
-            </li>
-          </ul>
+          <NavBarLinks />
 
           <NavBarSearch />
-          
         </div>
       </nav>
     );
