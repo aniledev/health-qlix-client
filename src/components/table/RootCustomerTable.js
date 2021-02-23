@@ -13,26 +13,16 @@ import {
   faMapPin,
 } from "@fortawesome/free-solid-svg-icons";
 import { DropdownButton, Dropdown } from "react-bootstrap";
+import DropDownButton from "./DropDownButton";
 
 export default class RootCustomerTable extends Component {
   render() {
     return (
-      <main class="RootCustomerTable container mt-4 mb-5">
-        <div class="dropdown pt-43 mb-3 d-flex justify-content-end">
-          <DropdownButton id="dropdown-basic-button" title="Sort">
-            <Dropdown.Item className="dropdown-button" href="#/action-1">
-              Name
-              <FontAwesomeIcon
-                icon={faSortAlphaDown}
-                className="sort-alpha"
-              />{" "}
-            </Dropdown.Item>
-            <Dropdown.Item className="dropdown-button" href="#/action-2">
-              State{" "}
-              <FontAwesomeIcon icon={faSortAlphaDown} className="sort-alpha" />{" "}
-            </Dropdown.Item>
-          </DropdownButton>
-        </div>
+        <main class="RootCustomerTable container mt-4 mb-5">
+            
+        <DropDownButton />
+
+        
 
         <table class="table table-hover">
           <thead>
