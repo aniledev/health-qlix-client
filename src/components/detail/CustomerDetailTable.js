@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import DetailTableHeading from "./DetailTableHeading";
-import DetailTableData from "./DetailTableData";
+import DetailTableHeading from "../detail/DetailTableHeading";
+import DetailTableData from "../detail/DetailTableData";
 
 export default class CustomerDetailTable extends Component {
   render() {

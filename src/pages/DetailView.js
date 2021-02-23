@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import RootNavBar from "../components/navbar/RootNavBar";
-import CustomerDetailTable from "../components/table/CustomerDetailTable";
+import CustomerDetailTable from "../components/detail/CustomerDetailTable";
 
 export default class DetailView extends Component {
   render() {
@@ -8,8 +8,7 @@ export default class DetailView extends Component {
       <div className="DetailView">
         <RootNavBar />
 
-            <CustomerDetailTable/>
-        
+        <CustomerDetailTable />
       </div>
     );
   }
