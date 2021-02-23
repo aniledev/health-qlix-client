@@ -19,7 +19,7 @@ export default class RootView extends Component {
   render() {
     return (
       <div className="RootView">
-        <RootNavBar></RootNavBar>
+        <RootNavBar/>
 
        
 
