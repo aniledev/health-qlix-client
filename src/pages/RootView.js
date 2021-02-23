@@ -18,7 +18,7 @@ export default class RootView extends Component {
     return (
       <div className="RootView">
         <nav class="mb-4 navbar navbar-expand-lg navbar-dark sticky-top">
-          <a class="navbar-brand" href="/root.html">
+          <a class="navbar-brand" href="/">
             <img
               src="/health-qliz-logo.png"
               width="25"
@@ -42,6 +42,11 @@ export default class RootView extends Component {
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">
+                  Home
+                </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="/form.html">
                   <FontAwesomeIcon icon={faPlusSquare} className="plus" />{" "}
