@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import DetailTableRow from "./DetailTableRow";
 
 export default class DetailTableData extends Component {
   render() {
     return (
       <table class="table table-hover mt-4">
         <tbody>
+          <DetailTableRow></DetailTableRow>
           <tr>
             <th class="info-label" scope="row">
               <i class="fas fa-list-ol"></i>ID
