@@ -1,6 +1,5 @@
 #dropdown-basic-button,
-.add-customer,
-.add {
+button.add {
   color: black;
   background-color: #70d9ff;
   border: none;
@@ -20,13 +19,13 @@ thead {
 }
 
 #dropdown-basic-button:hover,
-.add-customer:hover {
+button.add:hover {
   background-color: #00aeef;
   color: white;
 }
 
 #dropdown-basic-button:focus,
-.add-customer:focus {
+button.add:focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
   background-color: #00aeef;
