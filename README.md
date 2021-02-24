@@ -75,6 +75,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Acknowledgements
 
 - React Bootstrap
-- ![faker.js](https://github.com/marak/Faker.js)
-- ![mongo-knex](https://www.npmjs.com/package/@nexes/mongo-knex)
-- ![mongo-to-knex](https://www.npmjs.com/package/@nexes/mongo-knex)
+- [faker.js](https://github.com/marak/Faker.js)
+- [mongo-knex](https://www.npmjs.com/package/@nexes/mongo-knex)
+- [mongo-to-knex](https://www.npmjs.com/package/@nexes/mongo-knex)
