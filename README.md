@@ -4,6 +4,11 @@
 
 These are front-end React wireframes that could be used as the jumping-off point for a front-end/backend Health Qlix Rolodex application.
 
+## Routes
+- / — This route renders the root view which would display all customers.
+- /add — This route renders the form to add a new customer.
+- /details — This route renders the expanded customer details.
+
 ## Styling
 
 The styling choice for this application is very minimal, but also user-friendly. When dealing with large amounts of data, the least amount of items on the screen seems to be a bonus. This helps the user interact with the site intuitively.
@@ -26,6 +31,9 @@ If you want to use knex to create simpler SQL queries, this can also be used wit
 To manage the server and API calls, this would be a simpler project, and Express would do. The main HTTP request would be a GET request to request the list of all customers and their data. The second HTTP request would be a GET request to receive a filtered list of customers based on the user's search query. The expanded detail view for each customer would not require an HTTP request to the server as this data could be computed from one of the above requests. All hardcoded data would be replaced with data either directly from the server response or computed from these responses. 
 
 Per standards, the backend would require standard error/info logging, security, and token handling middleware.
+
+## Authentication
+When dealing with personally identifiable information, security is a top concern. This application would benefit from the use of JWT tokens to register session use. These 'tokens' can be used to identify multiple admins and would make the system more secure. Logins would be required for system use.   
 
 ## Available Scripts
 

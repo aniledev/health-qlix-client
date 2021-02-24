@@ -1,6 +1,5 @@
 {
   "name": "health-qlix-client",
-  "homepage": "http://aniledev.github.io/health-qlix-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
