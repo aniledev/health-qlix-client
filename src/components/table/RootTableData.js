@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPlusSquare,
-  faSearch,
-  faSortAlphaDown,
   faListOl,
   faUser,
   faHome,
@@ -12,9 +9,7 @@ import {
   faFlagUsa,
   faMapPin,
 } from "@fortawesome/free-solid-svg-icons";
-import { DropdownButton, Dropdown } from "react-bootstrap";
 import RootTableRow from "./RootTableRow";
-import { Link } from "react-router-dom";
 
 export default class RootTableData extends Component {
   render() {
