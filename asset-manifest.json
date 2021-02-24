@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/health-qlix-client/static/css/main.e8120874.chunk.css",
+    "main.js": "/health-qlix-client/static/js/main.3353858f.chunk.js",
+    "main.js.map": "/health-qlix-client/static/js/main.3353858f.chunk.js.map",
+    "runtime-main.js": "/health-qlix-client/static/js/runtime-main.eb3fb1e0.js",
+    "runtime-main.js.map": "/health-qlix-client/static/js/runtime-main.eb3fb1e0.js.map",
+    "static/css/2.658248ec.chunk.css": "/health-qlix-client/static/css/2.658248ec.chunk.css",
+    "static/js/2.47cdb29d.chunk.js": "/health-qlix-client/static/js/2.47cdb29d.chunk.js",
+    "static/js/2.47cdb29d.chunk.js.map": "/health-qlix-client/static/js/2.47cdb29d.chunk.js.map",
+    "index.html": "/health-qlix-client/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/health-qlix-client/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.e8120874.chunk.css.map": "/health-qlix-client/static/css/main.e8120874.chunk.css.map",
+    "static/js/2.47cdb29d.chunk.js.LICENSE.txt": "/health-qlix-client/static/js/2.47cdb29d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb3fb1e0.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.47cdb29d.chunk.js",
+    "static/css/main.e8120874.chunk.css",
+    "static/js/main.3353858f.chunk.js"
+  ]
+}
