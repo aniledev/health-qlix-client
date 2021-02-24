@@ -5,9 +5,9 @@
 These are front-end React wireframes that could be used as the jumping-off point for a front-end/backend Health Qlix Rolodex application.
 
 ## Routes
-- / — This route renders the root view which would display all customers.
-- /add — This route renders the form to add a new customer.
-- /details — This route renders the expanded customer details.
+- ```/``` — This route renders the root view which would display all customers.
+- ```/add``` — This route renders the form to add a new customer.
+- ```/details``` — This route renders the expanded customer details.
 
 ## Styling
 
